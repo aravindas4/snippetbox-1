@@ -4,6 +4,8 @@ from typing import List
 
 
 class Solution:
+    # Here the array is unsorted and random. So we can not use
+    # hashmaps.
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 
         hash_map = {} # map of previous elements, value: index
