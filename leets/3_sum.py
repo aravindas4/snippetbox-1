@@ -10,7 +10,7 @@ class Solution:
         nums.sort()
 
         # Two sum approach
-        tracker = set()
+        # tracker = set()
         result = []
 
         for index, elem in enumerate(nums):
